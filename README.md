@@ -89,12 +89,14 @@ docker run hello-world
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone -b laravel-10-com-php-8.1 https://github.com/panetdigital/laravel-10-docker.git app-laravel
+mkdir app-laravel
 ```
 ```sh
 cd app-laravel
 ```
-
+```sh
+git clone https://github.com/panetdigital/laravel-10-docker.git
+```
 
 Crie o Arquivo .env
 ```sh
