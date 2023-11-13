@@ -97,7 +97,9 @@ cd app-laravel
 ```sh
 git clone https://github.com/panetdigital/laravel-10-docker.git
 ```
-
+```sh
+cd laravel-10-docker/
+```
 Crie o Arquivo .env
 ```sh
 cp .env.example .env
@@ -124,8 +126,9 @@ REDIS_HOST=redis
 REDIS_PASSWORD=null
 REDIS_PORT=6379
 ```
-
-
+```sh
+sudo apt  install docker-compose
+```
 Suba os containers do projeto
 ```sh
 docker-compose up -d
